@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 function App() {
   const [isHover, setIsHover] = useState(false);
+  const [totalSales, setIsTotalSales] = useState(2);
   return (
     <div>
       <motion.button
@@ -29,7 +30,7 @@ function App() {
             animate={{ opacity: isHover ? 0 : 1 }}
             transition={{ ease: "easeInOut", duration: 0.4 }}
           >
-            <span className="text-xs font-semibold">2</span>
+            <span className="text-xs font-semibold">{totalSales}</span>
           </motion.div>
         </div>
         <motion.div
@@ -42,7 +43,7 @@ function App() {
           }}
           transition={{ ease: "easeInOut", duration: 0.4 }}
         >
-          <span className="mt-2">2 Items in cart</span>
+          <span className="mt-2">{totalSales} Items in cart</span>
         </motion.div>
       </motion.button>
     </div>
