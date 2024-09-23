@@ -47,3 +47,15 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Contributing
+
+If you'd like to contribute to the component, feel free to submit a pull request or open an issue!
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+Built with ❤️ by Your T-Urud
