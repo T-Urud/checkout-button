@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <motion.button
-        className="flex items-center gap-2 px-6 py-3 bg-[#2d2d2d] rounded-xl shadow-md  z-20"
+        className="flex items-center gap-2 px-6 py-3 bg-[#2d2d2d] rounded-xl shadow-md z-20"
         onHoverStart={() => setIsHover(true)}
         onHoverEnd={() => setIsHover(false)}
       >
